@@ -13,6 +13,12 @@ variable "account" {
   type        = string
 }
 
+
+variable "resource_group" {
+  description = "The name of an existing resource group or a new resource group to be created for the Azure VNET"
+  type        = string
+}
+
 variable "gw_name" {
   description = "Aviatrix Transit GW Name"
   default = "az-transit-gw"

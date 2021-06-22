@@ -6,6 +6,7 @@ resource "azurerm_resource_group" "avx-management" {
 }
 
 
+
 #### VNet where Controller and Copilot will be deployed
 
 resource "azurerm_virtual_network" "avx-management-vnet" {
